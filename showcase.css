@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,700&display=swap'); 
+
+h1 {
+    font-family: Arimo;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+
+h1:hover {
+color: white;
+background: black;
+background-size: 10px 10px;
+
+}
+
+.main-text {
+    position: relative;
+    width: 100%;
+    height: 10vh;
+}
+
+.main-text h1 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+#photos {
+  opacity: .88;
+}
+
+#photos img {
+  width: 30%;
+  float: left;
+  display: block;
+  margin: 2px;
+}
+
+img:hover {
+  filter:brightness(1.0);
+}
+
+img {
+  filter: grayscale(100%) brightness(0.7) invert(0.9)
+}
+
+
+ul {
+  list-style: none;
+  margin: 0px auto;
+  padding: 10px;
+  display: block;
+  max-width: 780px;
+  text-align: center;
+}
