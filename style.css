@@ -19,12 +19,6 @@
     font-style: normal;
     font-weight: 500;
     font-size: 2em;
-    background: url("main.gif") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
   }
 
   /* VIDEO BACKGROUND */
