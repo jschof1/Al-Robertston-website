@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,700&display=swap'); 
+
+
+* { box-sizing: border-box; 
+}
+
+body { 
+    font-family: Arimo; 
+    
+}
+
+.carousel {
+  width: 20em;
+  height: 7em;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.img-slide-size {
+  width: 200px;
+  height: 150px;
+  border-radius: 15px;
+}
+
+.lines {
+  border-top: 2px solid;
+  border-bottom: 2px solid;;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  padding: 40px;
+}
+
+p {
+  font-size: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

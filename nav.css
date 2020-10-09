@@ -1,40 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,700&display=swap'); 
 
-/* ENTIRE PAGE */
 * {
-    box-sizing: border-box;
-  }
-
-  .transition-fade {
-    transition: 0.4s;
-    opacity: 1;
-  }
-  
-  html.is-animating .transition-fade {
-    opacity: 0;
-  }
-
-  body {
-    font-family: Arimo, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 2em;
-  }
-
-  /* VIDEO BACKGROUND */
-  
-  video {
-    object-fit: cover;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1
-  }
-  
-  /* TITLE */
-  * {
     font-family: Arimo;
 
 }
@@ -54,7 +20,7 @@
   
   
   .nav {
-  color: white;
+  color: #555585;
   } 
 
 
@@ -76,14 +42,15 @@
   .nav > .nav-links {
   display: inline;
   float: right;
-  font-size: 22px;
+  font-size: 18px;
+  padding-top: 8px;
   }
   
   .nav > .nav-links > a {
   display: inline-block;
   padding: 13px 10px 13px 10px;
   text-decoration: none;
-  color: white;
+  color:black;
   }
   
   .nav > .nav-links > a:hover {
@@ -143,38 +110,7 @@
   }
   }
 
-  /* BOTTOM CORNER LINKS */
 
-  a {
-      text-decoration: none;
-      color: black;
-
-  }
-.bottomright > a {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-    color: #EEA992;
-  }
   
-.bottomleft >  a{
-    position: absolute;
-    bottom: 8px;
-    color: #EEA992;
-  }
-  
-  /* LANDING PAGE DESCRIPTION */
-
-  .landing-words {
-    font-size: 60%;
-    text-align: left;
-    position: absolute;
-    top: 30vh;
-    margin-right: 90vh;
-    margin-left: 5vh;
-    color: #555585;
-
-  }
-
 
   
