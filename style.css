@@ -41,9 +41,10 @@
 
 
 .egg-image {
-  width: 10%;
+  width: 15%;
   margin-right: 15px;
-  float: left;
+  padding-bottom: 10px;
+  float: left
 }
 
 
@@ -55,6 +56,7 @@
   
   .nav {
   color: white;
+  margin-top: 0.5em;
   } 
 
 
@@ -173,7 +175,7 @@
     margin-right: 90vh;
     margin-left: 5vh;
     color: #555585;
-
+    padding-right: 12em;
   }
 
 

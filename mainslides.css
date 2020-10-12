@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,700&display=swap'); 
 
 
-* { box-sizing: border-box; 
+* { 
+  box-sizing: border-box; 
+  color: #555585;
 }
 
 body { 
@@ -11,7 +13,7 @@ body {
 
 .carousel {
   width: 20em;
-  height: 7em;
+  height: 40px;
 }
 
 .section {
@@ -22,9 +24,11 @@ body {
 
 
 .img-slide-size {
-  width: 200px;
-  height: 150px;
+  max-width: 200px;
+  max-height: 200px;
+  padding: 10px;
   border-radius: 15px;
+  
 }
 
 .lines {
@@ -36,7 +40,8 @@ body {
 }
 
 p {
-  font-size: 40px;
+
+  font-size: 33px;
 }
 
 a {
