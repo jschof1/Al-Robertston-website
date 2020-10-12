@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,700&display=swap'); 
+
+body {
+    font-family: arimo;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+}
+
+.big-images {
+    max-width: 50em;
+    margin-top: 3em;
+}
+
+.showcase-arrow {
+    position: absolute;
+    max-width: 5em;
+    margin-top: 15%
+}
+
