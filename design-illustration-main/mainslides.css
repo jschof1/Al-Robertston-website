@@ -24,6 +24,7 @@ body {
 
 
 .img-slide-size {
+  float: right;
   max-width: 200px;
   max-height: 200px;
   padding: 10px;
@@ -40,7 +41,6 @@ body {
 }
 
 p {
-
   font-size: 33px;
 }
 

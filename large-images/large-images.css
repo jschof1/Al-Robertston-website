@@ -9,8 +9,8 @@ body {
     place-items: center;
 }
 
-.big-images {
-    max-width: 50em;
+.sizing {
+    max-width: 60em;
     margin-top: 3em;
 }
 

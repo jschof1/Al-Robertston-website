@@ -82,7 +82,7 @@
     display: block;
     width: 25px;
     height: 10px;
-    border-top: 2px solid #eee;
+    border-top: 2px solid black;
   }
   .nav > .nav-links {
     position: absolute;
