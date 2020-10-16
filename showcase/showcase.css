@@ -6,9 +6,11 @@ color: #555585;
 
 .container {
   margin: auto;
+  margin-top: 50px;
+  padding: 0px 30px 0px 30px;
   
 }
-
+/* 
 h1 {
     font-family: Arimo;
     font-weight: 400;
@@ -29,4 +31,5 @@ h1 {
   transform: translate(-50%, -50%);
   width: 100%;
   text-align: center;
-}
+} */
+

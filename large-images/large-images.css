@@ -11,6 +11,7 @@ body {
 
 .sizing {
     max-width: 60em;
+    max-height: 33em;
     margin-top: 3em;
 }
 

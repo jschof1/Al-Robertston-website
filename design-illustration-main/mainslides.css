@@ -11,9 +11,10 @@ body {
     
 }
 
+
 .carousel {
   width: 20em;
-  height: 40px;
+  max-height: 40px
 }
 
 .section {
@@ -24,20 +25,20 @@ body {
 
 
 .img-slide-size {
-  float: right;
   max-width: 200px;
   max-height: 200px;
-  padding: 10px;
-  border-radius: 15px;
-  
+  padding-bottom: 70px;
+  margin-left: 10px;
+
 }
 
 .lines {
   border-top: 2px solid;
-  border-bottom: 2px solid;;
+  border-bottom: 2px solid;
   margin-right: 10px;
   margin-bottom: 30px;
-  padding: 40px;
+  padding: 20px 10px 50px 10px;
+
 }
 
 p {
@@ -48,3 +49,4 @@ a {
   text-decoration: none;
   color: black;
 }
+

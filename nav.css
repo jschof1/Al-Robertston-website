@@ -44,7 +44,6 @@
   display: inline;
   float: right;
   font-size: 18px;
-  padding-top: 8px;
   }
   
   .nav > .nav-links > a {
@@ -85,13 +84,13 @@
     border-top: 2px solid black;
   }
   .nav > .nav-links {
-    position: absolute;
+  
     border-radius: 10px;
     display: block;
     width: 100%;
     background-color: white;
     height: 0px;
-    transition: all 0.3s ease-in;
+    transition: all 0.6 ease-in;
     overflow-y: hidden;
     top: 100px;
     left: 0px;
