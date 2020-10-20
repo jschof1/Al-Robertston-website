@@ -10,15 +10,17 @@
     opacity: 1;
   }
   
+  h1 {
+    text-transform: uppercase;
+  }
+
   html.is-animating .transition-fade {
     opacity: 0;
   }
 
   body {
     font-family: Arimo, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 2em;
+    font-size: 2.1em;
   }
 
   /* VIDEO BACKGROUND */
@@ -40,11 +42,11 @@
 }
 
 
-.egg-image {
-  width: 15%;
-  margin-right: 15px;
+img {
+  width: 5%;
+  margin-left: 10px;
   padding-bottom: 10px;
-  float: left
+  float: left;
 }
 
 
@@ -68,7 +70,7 @@
   .nav > .nav-header > .nav-title {
   display: inline-block;
   font-size: 22px;
-  padding: 10px 10px 10px 10px;
+  padding: 15px 10px 10px 10px;
   }
   
   .nav > .nav-btn {
@@ -162,20 +164,25 @@
 .bottomleft >  a{
     position: absolute;
     bottom: 8px;
+    left: 18px;
     color: #EEA992;
   }
   
   /* LANDING PAGE DESCRIPTION */
 
   .landing-words {
-    font-size: 60%;
+    font-size: 58%;
     text-align: left;
     position: absolute;
-    top: 30vh;
-    margin-right: 90vh;
+    top: 29vh;
+    margin-right: 60vh;
     margin-left: 5vh;
     color: #555585;
     padding-right: 12em;
+  }
+  
+  p {
+    font-size: 23px;
   }
 
 
