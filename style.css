@@ -155,13 +155,15 @@ img {
 
   }
 .bottomright > a {
+  font-size: 22px;
     position: absolute;
     bottom: 8px;
     right: 16px;
     color: #EEA992;
   }
   
-.bottomleft >  a{
+.bottomleft >  a {
+  font-size: 22px;
     position: absolute;
     bottom: 8px;
     left: 18px;
