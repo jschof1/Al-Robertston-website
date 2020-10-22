@@ -11,6 +11,10 @@ body {
     
 }
 
+.contain-whole {
+  height: 10%
+}
+
 
 .carousel {
   width: 20em;
