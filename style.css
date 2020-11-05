@@ -104,6 +104,8 @@ img {
     position: absolute;
     right: 0px;
     top: 0px;
+    padding-top: 24px;
+    padding-right: 15px;
   }
   .nav > .nav-btn > label {
     display: inline-block;
@@ -187,5 +189,10 @@ img {
     font-size: 23px;
   }
 
+  @media (max-width:600px) { .nav > .nav-links > a {
+    color: #555585;
+    z-index: 1;
+  }
+}
 
   
