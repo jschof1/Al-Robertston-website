@@ -11,46 +11,24 @@ body {
     
 }
 
-.contain-whole {
-  height: 10%
-}
-
-
-.carousel {
-  width: 20em;
-  max-height: 40px
-}
-
-.section {
+.container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center; 
+}
 
+img {
+  padding: 0px;
+  width: 65em;
+  margin-top: 30px;
 }
 
 
-.img-slide-size {
-  max-width: 200px;
-  max-height: 200px;
-  padding-bottom: 70px;
-  margin-left: 10px;
 
+#img_wrap #static, #img_wrap:hover #animated {
+  display: inline;
 }
-
-.lines {
-  border-top: 2px solid;
-  border-bottom: 2px solid;
-  margin-right: 10px;
-  margin-bottom: 30px;
-  padding: 20px 10px 50px 10px;
-
-}
-
-p {
-  font-size: 33px;
-}
-
-a {
-  text-decoration: none;
-  color: black;
+#img_wrap #animated, #img_wrap:hover #static {
+  display: none;
 }
 
