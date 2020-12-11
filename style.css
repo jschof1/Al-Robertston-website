@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,700&display=swap'); 
 
 /* ENTIRE PAGE */
-* {
+/* * {
     box-sizing: border-box;
   }
 
@@ -13,10 +13,10 @@
   h1 {
     text-transform: uppercase;
   }
-
+*/
   html.is-animating .transition-fade {
     opacity: 0;
-  }
+  } 
 
   body {
     font-family: Arimo, sans-serif;
@@ -34,12 +34,6 @@
     left: 0;
     z-index: -1
   }
-  
-  /* TITLE */
-  * {
-    font-family: Arimo;
-
-}
 
 
 img {
@@ -109,9 +103,9 @@ img {
   }
   .nav > .nav-btn > label {
     display: inline-block;
-    width: 50px;
     height: 50px;
-    padding: 13px;
+    padding-top: 12px;
+    
   }
   .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
     background-color: rgba(0, 0, 0, 0.3);
@@ -185,14 +179,27 @@ img {
     padding-right: 12em;
   }
   
-  p {
-    font-size: 23px;
-  }
 
   @media (max-width:600px) { .nav > .nav-links > a {
     color: #555585;
     z-index: 1;
   }
 }
+
+@media (max-width:600px) {.landing-words {
+  margin-right: 150px;
+}
+}
+
+/* @media (max-width:600px) { h1 {
+  margin-right: 500px;
+}
+} */
+
+
+
+
+
+ 
 
   

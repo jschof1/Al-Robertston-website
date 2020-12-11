@@ -12,6 +12,27 @@ color: #555585;
   
 }
 
+@media only screen and (max-width: 600px) {
+.container {
+  margin: none;
+  margin-top: 0px;
+  padding: 70px 0px 0px 0px;
+  text-align: center;
+}
+#img_wrap #animated, #img_wrap:hover #static {
+  display:inline-block !important;
+}
+
+#img_wrap #static, #img_wrap:hover #animated {
+  display: none !important;
+}
+
+
+}
+.text-center 
+{ text-align: center
+ }
+
 
 #img_wrap #static, #img_wrap:hover #animated {
   display: inline;
@@ -23,6 +44,8 @@ color: #555585;
 p {
   padding-bottom: 70px;
 }
+
+
 
 /* 
 h1 {

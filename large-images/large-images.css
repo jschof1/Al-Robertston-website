@@ -2,6 +2,9 @@
 
 body {
     font-family: arimo;
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
 }
 
 .container {
@@ -37,4 +40,37 @@ h3 {
 
 p {
     line-height: 30px;
+}
+
+@media (max-width: 600px) {
+    iframe {
+        width: 290px;
+        height: 290px;
+        margin-left: -90px;
+    }
+
+    p {
+        overflow: auto;
+        margin-left: -70px;
+        margin-right: 10px;
+    }
+
+    h3 {
+        font-size: 30px;
+        margin-left: -100px;
+    }
+    .showcase-arrow {
+        position: absolute;
+        max-width: 3em;
+        margin-top: 15%;
+        z-index: -1;
+    }
+
+    .container {
+        display: grid;
+        place-items: center;
+        padding-right: 5px;
+        padding-left: 100px;
+        overflow: auto;
+    }
 }

@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,700&display=swap'); 
 
 
-* { 
-  box-sizing: border-box; 
-  color: #555585;
-}
 
 body { 
     font-family: Arimo; 
@@ -32,3 +28,28 @@ img {
   display: none;
 }
 
+@media (max-width: 600px) {
+  /* img {
+    width:22em;
+    height: 100px;
+    padding-bottom: 40px;
+    
+  } */
+  #img_wrap #static, #img_wrap:hover #animated {
+    width:22em;
+    height: 70px;
+    padding-bottom: 40px;
+    margin-top: 100px;
+  }
+
+  #img_wrap #animated, #img_wrap:hover #static {
+    width:22em;
+    height: 100px;
+    padding-bottom: 40px;
+  }
+  .container {
+    display: inline;
+    align-items: center;
+
+  }
+}
