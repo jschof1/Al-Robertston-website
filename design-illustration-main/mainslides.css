@@ -40,12 +40,14 @@ img {
     height: 70px;
     padding-bottom: 40px;
     margin-top: 100px;
+    display: inline-block !important;
   }
 
   #img_wrap #animated, #img_wrap:hover #static {
     width:22em;
     height: 100px;
     padding-bottom: 40px;
+    display: none !important;
   }
   .container {
     display: inline;
@@ -53,3 +55,5 @@ img {
 
   }
 }
+
+
