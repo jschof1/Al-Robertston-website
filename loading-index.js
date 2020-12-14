@@ -1,0 +1,1 @@
+window.setTimeout("document.getElementById('loading').style.display='none';", 8000)
