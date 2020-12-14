@@ -7,6 +7,7 @@ body {
   
 }
 
+
 body {
 
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -41,14 +42,7 @@ body {
   align-items: center;
 }
 
-p {
-    position: absolute;
-    left: 3vh;
-    top: 0vh;
-    z-index: 1
-}
-
-.egg-image {
+.egg-image img.egg-image {
   width: 15%;
   margin-right: 15px;
   float: left;
@@ -68,10 +62,26 @@ p {
     top: 50%;
   }
 
-
+  .swiper-slide {
+    margin-top: -70px;
+  }
 
   div.swiper-button-prev,
   div.swiper-button-next {
   color: black;
   }
+ .container {
+  position: relative;
+  
+ }
+p {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 50px;
+}
 
+h3 {
+ position: absolute;
+  bottom: 0;
+  margin-bottom: 85px;
+}

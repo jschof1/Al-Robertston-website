@@ -62,7 +62,7 @@ p {
   width: 100vw;
   height: 100vh;
   background-color:white;
-  background-image: url("loading.gif");
+  background-image: url("../images/loader-1.gif");
   background-repeat: no-repeat;
   background-position: center;
  
