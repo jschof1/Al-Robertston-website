@@ -4,5 +4,9 @@ Tailwind
 HTML
 CSS
 JavaScript
+Swiper.js
+
+
+
 
 

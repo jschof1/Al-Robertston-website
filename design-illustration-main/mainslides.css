@@ -13,7 +13,7 @@ body {
   align-items: center; 
 }
 
-img {
+#animated, #static {
   padding: 0px;
   width: 65em;
   margin-top: 30px;
@@ -50,10 +50,11 @@ img {
     display: none !important;
   }
   .container {
-    display: inline;
+    display: inline-flex;
     align-items: center;
-
   }
+
+ 
 }
 
 

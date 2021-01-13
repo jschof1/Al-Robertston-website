@@ -3,44 +3,71 @@
 * {
     font-family: Arimo;
     color: #555585;
-
 }
 
 .egg-image {
-  width: 46%;
+  width: 100%;
+  flex-grow: 0;
+  max-width: 380px;
+  padding-right: 10px;
   margin-left: 2px;
   margin-top: 2px;
 }
 
-.egg-image-home {
-  width: 67%;
-  margin-top: -28.5px;
-  margin-left: -20px;
+.egg-image.design-logo {
+  max-width: 300px;
 }
 
+@media (min-width: 768px) {
+  .egg-image {
+    max-width: 260px;
+  }
+
+  .egg-image.design-logo {
+    max-width: 200px;
+  }
+}
+
+.egg-image-home {
+  max-width: 400px;
+  margin-top: -25px;
+  margin-left: -20px;
+}
 
 .small {
     height: 10vh;
     font-size: 150%;
   }
-  
-  
+   
+  .socials {
+    height: 30px;
+  }
+
+  .socials-white {
+    height: 30px;
+    padding: 3px;
+    margin-bottom: 10px;
+  }
+#social-links-white {
+display: flex;
+margin-right: 100px;
+}
 .nav {
+  display: flex;
   color: #555585;
   margin-top: 0.3125em;
   padding-right: 10px;
   } 
 
-
-  
   .nav > .nav-header {
   display: inline;
   }
   
   .nav > .nav-header > .nav-title {
-  display: inline-block;
+  display: flex;
   font-size: 22px;
   padding-left: 10px;
+    align-items: center;
   }
   
   .nav > .nav-btn {
@@ -48,15 +75,16 @@
   }
   
   .nav > .nav-links {
-  display: inline;
-  float: right;
+  margin-left: auto;
+  order: 2;
   font-size: 22px;
   margin-top: 10px;
+  word-spacing: 10%;
   }
   
   .nav > .nav-links > a {
   display: inline-block;
-  padding: 13px 10px 13px 10px;
+  padding: 0px 10px 13px 10px;
   text-decoration: none;
   color: #555585;
   }
@@ -73,8 +101,7 @@
   @media (max-width:600px) {
 
   .egg-image-home {
-    margin-right:1.5px;
-    margin-top: 1.5px; 
+      width: 300px;
   }
   .nav > .nav-btn {
     display: inline-block;
@@ -99,7 +126,6 @@
     border-top: 2px solid black;
   }
   .nav > .nav-links {
-  
     border-radius: 10px;
     display: block;
     width: 100%;
@@ -129,6 +155,26 @@
     text-decoration: underline;
   }
 
+
+  .contain-egg {
+    display: flex;
+    align-items: center;
+  }
+
+  #social-links {
+    display: flex;
+  }
+
+  #social-links > a {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+@media (max-width: 767px) {
+  .socials {
+  display: none;
+  }
+}
 
   
   
