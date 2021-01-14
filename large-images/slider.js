@@ -30,6 +30,8 @@ slides.forEach((slide, i) => {
 var scrollTop = function () {
   window.scrollTo(0, 0);
 };
+
+
 // document.querySelector('#bruja').addEventListener('click', () => {
 //   mySwiper.slideTo(2);
 // });
