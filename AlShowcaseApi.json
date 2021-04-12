@@ -1,0 +1,72 @@
+{
+    "imageApi": [
+      "editorial": {
+        "large-editorial-illustration": {
+          "id": {},
+          "imageUrl": {},
+          "title": {},
+          "description": {}
+        },
+        "large-editorial": {
+          "id": {},
+          "imageUrl": {},
+          "title": {},
+          "description": {}
+        },
+        "small-editorial": {
+          "id": {},
+          "imageUrl": {},
+          "title": {},
+          "description": {}
+        }
+      },
+      "design": {
+        "large-product-package-design": {
+          "id": {},
+          "imageUrl": {},
+          "title": {},
+          "description": {}
+        },
+        "small-product-package-design": {
+          "id": {},
+          "imageUrl": {},
+          "title": {},
+          "description": {}
+        }
+      },
+      "music-print": {
+        "large-music-print": {
+          "id": {},
+          "imageUrl": {},
+          "title": {},
+          "description": {}
+        },
+        "small-music-print": {
+          "id": {},
+          "imageUrl": {},
+          "title": {},
+          "description": {}
+        }
+      },
+      "animation": {
+        "gifs": {
+          "id": {},
+          "imageUrl": {},
+          "title": {},
+          "description": {}
+        },
+        "stills": {
+          "id": {},
+          "imageUrl": {},
+          "title": {},
+          "description": {}
+        },
+        "large": {
+          "id": {},
+          "imageUrl": {},
+          "title": {},
+          "description": {}
+        }
+      }
+    ]
+  }

@@ -1,0 +1,257 @@
+{
+    "imageApi": {
+      "editorial": {
+        "large-editorial-illustration": {
+          "id": "",
+          "imageUrl": "",
+          "title": "",
+          "description": ""
+        },
+        "large-editorial": {
+          "id": "",
+          "imageUrl": "",
+          "title": "",
+          "description": ""
+        },
+        "small-editorial": {
+          "id": "",
+          "imageUrl": "",
+          "title": "",
+          "description": ""
+        }
+      },
+      "design": {
+        "large-product-package-design": {
+          "id": "",
+          "imageUrl": "",
+          "title": "",
+          "description": ""
+        },
+        "small-product-package-design": {
+          "id": "",
+          "imageUrl": "",
+          "title": "",
+          "description": ""
+        }
+      },
+      "music-print": {
+        "large-music-print": {
+          "id": "",
+          "imageUrl": "",
+          "title": "",
+          "description": ""
+        },
+        "small-music-print": [{
+          "id": "",
+          "imageUrl": "",
+          "title": "",
+          "description": ""
+        },
+        {
+          "id": "",
+          "imageUrl": "",
+          "title": "",
+          "description": ""
+        },
+        {
+          "id": "",
+          "imageUrl": "",
+          "title": "",
+          "description": ""
+        },
+        {
+          "id": "",
+          "imageUrl": "",
+          "title": "",
+          "description": ""
+        }
+      ]
+      },
+      "animation": {
+        "gifs": [{
+          "id": "1",
+          "imageUrl": "",
+          "title": "Showreel 2020",
+          "description": ""
+        },
+        {
+          "id": "2",
+          "imageUrl": "",
+          "title": "Skater",
+          "description": ""
+        },
+        {
+          "id": "3",
+          "imageUrl": "",
+          "title": "find a way",
+          "description": ""
+        },
+        {
+          "id": "4",
+          "imageUrl": "",
+          "title": "train",
+          "description": ""
+        },
+        {
+          "id": "5",
+          "imageUrl": "",
+          "title": "Darius",
+          "description": ""
+        },
+        {
+          "id": "6",
+          "imageUrl": "",
+          "title": "quaranvino",
+          "description": ""
+        },
+        {
+          "id": "7",
+          "imageUrl": "",
+          "title": "radge",
+          "description": ""
+        },
+        {
+          "id": "8",
+          "imageUrl": "",
+          "title": "Dance Cry",
+          "description": ""
+        },
+        {
+          "id": "9",
+          "imageUrl": "",
+          "title": "Northern Monk",
+          "description": ""
+        },
+        {
+          "id": "10",
+          "imageUrl": "",
+          "title": "Jango Flash",
+          "description": ""
+        },
+        {
+          "id": "11",
+          "imageUrl": "",
+          "title": "quaranvino",
+          "description": ""
+        },
+        {
+          "id": "12",
+          "imageUrl": "",
+          "title": "street",
+          "description": ""
+        },
+        {
+          "id": "15",
+          "imageUrl": "",
+          "title": "ronaldo",
+          "description": ""
+        },
+        {
+          "id": "16",
+          "imageUrl": "",
+          "title": "muscleman",
+          "description": ""
+        },
+        {
+          "id": "17",
+          "imageUrl": "",
+          "title": "specs",
+          "description": ""
+        },
+        {
+          "id": "18",
+          "imageUrl": "",
+          "title": "muscleman",
+          "description": ""
+        },
+        {
+          "id": "19",
+          "imageUrl": "",
+          "title": "fresh mess",
+          "description": ""
+        },
+        {
+          "id": "20",
+          "imageUrl": "",
+          "title": "3d podcast",
+          "description": ""
+        },
+        {
+          "id": "21",
+          "imageUrl": "",
+          "title": "three drinkers",
+          "description": ""
+        },
+        {
+          "id": "22",
+          "imageUrl": "",
+          "title": "WOH",
+          "description": ""
+        }
+
+      ],
+        "stills": [{
+          "id": "",
+          "imageUrl": "",
+          "title": "",
+          "description": ""
+        },
+        {
+          "id": "",
+          "imageUrl": "",
+          "title": "Dance Cry",
+          "description": ""
+        },
+        {
+          "id": "",
+          "imageUrl": "",
+          "title": "Northern Monk",
+          "description": ""
+        },
+        {
+          "id": "",
+          "imageUrl": "",
+          "title": "Jango Flash",
+          "description": ""
+        },
+        {
+          "id": "",
+          "imageUrl": "",
+          "title": "street",
+          "description": ""
+        },
+        {
+          "id": "",
+          "imageUrl": "",
+          "title": "street",
+          "description": ""
+        }
+        {
+          "id": "",
+          "imageUrl": "",
+          "title": "street",
+          "description": ""
+        }
+        {
+          "id": "",
+          "imageUrl": "",
+          "title": "street",
+          "description": ""
+        }
+        {
+          "id": "",
+          "imageUrl": "",
+          "title": "street",
+          "description": ""
+        }
+
+      ],
+        "large": {
+          "id": "",
+          "imageUrl": "",
+          "title": "",
+          "description": ""
+        }
+      }
+    }
+  }
